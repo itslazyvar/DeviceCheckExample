@@ -11,6 +11,7 @@
 		5D69BC9129A2149D002ABD3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69BC9029A2149D002ABD3D /* ContentView.swift */; };
 		5D69BC9329A2149E002ABD3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D69BC9229A2149E002ABD3D /* Assets.xcassets */; };
 		5D69BC9729A2149E002ABD3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D69BC9629A2149E002ABD3D /* Preview Assets.xcassets */; };
+		5D69BCA229A217C7002ABD3D /* DCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69BCA129A217C7002ABD3D /* DCheck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		5D69BC9229A2149E002ABD3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D69BC9429A2149E002ABD3D /* DeviceCheck_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeviceCheck_Example.entitlements; sourceTree = "<group>"; };
 		5D69BC9629A2149E002ABD3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D69BCA129A217C7002ABD3D /* DCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCheck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				5D69BC8E29A2149D002ABD3D /* DeviceCheck_ExampleApp.swift */,
 				5D69BC9029A2149D002ABD3D /* ContentView.swift */,
+				5D69BCA129A217C7002ABD3D /* DCheck.swift */,
 				5D69BC9229A2149E002ABD3D /* Assets.xcassets */,
 				5D69BC9429A2149E002ABD3D /* DeviceCheck_Example.entitlements */,
 				5D69BC9529A2149E002ABD3D /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D69BC9129A2149D002ABD3D /* ContentView.swift in Sources */,
+				5D69BCA229A217C7002ABD3D /* DCheck.swift in Sources */,
 				5D69BC8F29A2149D002ABD3D /* DeviceCheck_ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +269,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DeviceCheck Example/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -282,13 +287,15 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "li.gale.swiftydb.DeviceCheck-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = li.gale.swiftydb.dcheckexample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DeviceCheck Example/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -318,13 +326,15 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "li.gale.swiftydb.DeviceCheck-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = li.gale.swiftydb.dcheckexample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

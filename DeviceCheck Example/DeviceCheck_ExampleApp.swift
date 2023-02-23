@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct DeviceCheck_ExampleApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+	init(){
+		let _ = DCheck.sharedInstance	
+	}
+	var body: some Scene {
+		WindowGroup {
+			ContentView(localBits: DCheck.sharedInstance)
+		}
+	}
 }
